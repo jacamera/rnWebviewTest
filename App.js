@@ -7,7 +7,8 @@
  */
 
 import React, {Component} from 'react';
-import {View, Button, WebView} from 'react-native';
+import {View, Button} from 'react-native';
+import {WebView} from 'react-native-webview';
 
 type Props = {};
 export default class App extends Component<Props> {
